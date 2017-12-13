@@ -36,8 +36,7 @@ body {
 }
 .event {
   border-bottom: 1px solid black;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 5px;
 }
 #date {
   display: table;
@@ -72,6 +71,7 @@ body {
   text-align:center;
 }
 #footer {
+  font-size:50%;
   position:fixed;
   bottom:1%;
   margin-left: auto;
