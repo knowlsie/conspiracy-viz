@@ -4,7 +4,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     attribution: 'Visualisation by Tom',
     maxZoom: 18,
     id: 'mapbox.satellite',
-    accessToken: 'TOKEN GOES HERE',
+    accessToken: 'MAPBOX TOKEN GOES HERE',
     noWrap: false,
 }).addTo(mapGeo);
 

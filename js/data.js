@@ -100,6 +100,157 @@ let locations = {
   "W.W. Allen": [40.7128, -74.0060],
 };
 
+let events = [
+  {
+    date:"1908-08-27",
+    summary:"Outline of imperial consitution",
+  },
+  {
+    date:"1908-10-14",
+    summary:"Boothe and Yung meet in Hartford",
+  },
+  {
+    date:"1908-11-14",
+    summary:"Death of Guangxu Emperor",
+  },
+  {
+    date:"1908-11-15",
+    summary:"Death of Cixi",
+  },
+  {
+    date:"1908-11-19",
+    summary:"Army revolts in Anking and Canton suppressed"
+  },
+  {
+    date:"1908-12-02",
+    summary:"Puyi ascends throne",
+  },
+  {
+    date:"1908-12-03",
+    summary:"Imperial Court proclaims that  constitution and Parliament will become operative in 1916"
+  },
+  {
+    date:"1908-12-25",
+    summary:"Imperial Regent organizes a new palace guard under his direct command"
+  },
+  {
+    date:"1909-01-01",
+    summary:"Dismissal of Yuan Shi Kai",
+  },
+  {
+    date:"1909-01-18",
+    summary:"Allen and Yung meet in New York",
+  },
+  {
+    date:"1909-02-17",
+    summary:"Regent calls for  establishment of provincial assemblies by the end of the year"
+  },
+  {
+    date:"1909-04-01",
+    summary:"Provincial assembly elections (through April)"
+  },
+  {
+    date:"1909-06-06",
+    summary:"Four Powers consortium reaches a draft agreement on funding the Hukuang  Railroad"
+  },
+  {
+    date:"1909-08-06",
+    summary:"Female workers stirke in Shanghai"
+  },
+  {
+    date:"1909-11-14",
+    summary:"Provincial assemblies convene for the first time"
+  },
+  {
+    date:"1909-12-29",
+    summary:"Shanghai court  permanently closes the radical paper The People’s Sigh under Japanese pressure"
+  },
+  {
+    date:"1910-01-26",
+    summary:"Delegates to the Peking conference of provincial assemblies petition for an immediate parliament"
+  },
+  {
+    date:"1910-01-30",
+    summary:"Court rejects Peking petition"
+  },
+  {
+    date:"1910-02-11",
+    summary:"Attempted revolution by Sun Yat-sen in Canton - quickly defeated",
+  },
+  {
+    date:"1910-02-12",
+    summary:"1910 Chinese expedition to Tibet occupies Lhasa"
+  },
+  {
+    date:"1910-04-15",
+    summary:"Major rioting at Changsha in Hunan: rioters attack foreign businesses. Troops fire on demonstrators"
+  },
+  {
+    date:"1910-05-09",
+    summary:"The Imperial Court announces that National Assembly will convene in October; half of its members are to be appointed rather than elected"
+  },
+  {
+    date:"1910-07-23",
+    summary:"Boothe receives document of approval from Sun, signed by 18 Presidents of Chinese Provincial assemblies",
+  },
+  {
+    date:"1910-06-05",
+    summary:"1910 Nanyang industrial exposition",
+  },
+  {
+    date:"1910-06-22",
+    summary:"Second constitutionalist petition is submitted by provincial assemblies, signed by 300,000"
+  },
+  {
+    date:"1910-06-27",
+    summary:"Imperial Court rejects the second petition"
+  },
+  {
+    date:"1910-07-21",
+    summary:"Three Chinese native banks (正元, 兆康, 谦余) bankrupted in Shanghai Rubber Stock Market Crisis."
+  },
+  {
+    date:"1910-08-04",
+    summary:"Agreement with Four Powers Consortium for loan to Shanghai Taotai",
+  },
+  {
+    date:"1910-10-03",
+    summary:"National Assembly convenes"
+  },
+  {
+    date:"1910-10-22",
+    summary:"Imperial Court orders  Finance Ministry to prepare the first Chinese national budget"
+  },
+  {
+    date:"1910-10-26",
+    summary:"National Assembly urges that a responsible parliament be quickly convened"
+  },
+  {
+    date:"1911-11-04",
+    summary:"Imperial decree brings forward adoption of a constitution to 1913 from 1916"
+  },
+  {
+    date:"1910-11-13",
+    summary:"Penang Conference held by Sun Yat-sen (emergency conference of Tongmenhui on revolution)",
+  },
+  {
+    date:"1911-03-24",
+    summary:"Agreement with Japan for Chinese government 5% railway loan of 1911"
+  },
+  {
+    date:"1911-04-29",
+    summary:"Tsinghua university established",
+  },
+  {
+    date:"1911-05-01",
+    summary:"Loan from Four Power Consortium for railway construction"
+  },
+  {
+    date:"1911-05-09",
+    summary:"Qing edict ordering railway nationalisation",
+  },
+]
+
 let letters = [
   {
     type: "letter",
@@ -583,7 +734,7 @@ let letters = [
     toLocation: locations["Charles Beach Boothe"],
     sent: "1909-01-12",
     received: "1909-01-25", //TODO
-    summary: "Says he's spoken with Yung's son. Describes the dismissal of Yuan as 'a stunning the blow the cause of which is not at all understood.'",
+    summary: "Says he's spoken with Yung's son. Describes the dismissal of Yuan as 'a stunning blow the cause of which is not at all understood.'",
   },
   {
     type: "letter",
@@ -594,7 +745,7 @@ let letters = [
     toLocation: locations["Charles Beach Boothe"],
     sent: "1909-01-21",
     received: "1909-02-01",
-    summary: "Key letter describing meeting with Yung. Describes Yuan Shikai as is in total control of army - could be very useful to rebellion. Describes Kang as doubtful. Describes Sun as the most reliable of all, having nearly taken Canton. Proposes $9,000,000 will be needed for project. Expresses concerns about Yung's character: 'dense ignorance'.", //TODO
+    summary: "Key letter describing meeting with Yung. Describes Yuan Shikai as is in total control of army - could be very useful to rebellion. Describes Kang as doubtful. Describes Sun as the most reliable of all, having nearly taken Canton. Proposes $9,000,000 will be needed for project. Expresses concerns about Yung's character: 'dense ignorance'.",
   },
   {
     type: "letter",
@@ -960,26 +1111,3 @@ let letters = [
     summary: "Says he's pleased at Sun's success. Says he fears the document will be intercepted if sent by registered mail, so Sun should pick it up from LA.",
   },
 ];
-
-let events = [
-  {
-    date:"1908-10-14",
-    summary:"Boothe and Yung meet in Hartford"
-  },
-  {
-    date:"1908-11-13",
-    summary:"Death of Puyi",
-  },
-  {
-    date:"1909-01-01",
-    summary:"Dismissal of Yuan Shi Kai"
-  },
-  {
-    date:"1909-01-18",
-    summary:"Allen and Yung meet in New York"
-  },
-  {
-    date:"1910-02-01",
-    summary:"Attempted revolution by Sun Yat-sen in Canton"
-  }
-]

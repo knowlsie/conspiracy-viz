@@ -6,6 +6,11 @@ body {
 }
 .title {
   font-size: 150%;
+  position:fixed;
+  margin-left: auto;
+  margin-right: auto;
+  left:0;
+  right:0;
 }
 .map {
   position: absolute;
